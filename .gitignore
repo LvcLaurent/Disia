@@ -10,8 +10,6 @@ out/
 
 # Gradle
 .gradle/
-!gradle/wrapper/gradle-wrapper.jar
-!gradle/wrapper/gradle-wrapper.properties
 
 # Package files
 *.jar
@@ -21,6 +19,9 @@ out/
 *.zip
 *.tar.gz
 *.rar
+
+# Exceptions — fichiers binaires nécessaires au projet
+!gradle/wrapper/gradle-wrapper.jar
 
 # IDE — IntelliJ IDEA
 .idea/
